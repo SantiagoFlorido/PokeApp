@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import PokemonLogo from '../../public/pokemon.png';
+import PokemonLogo from '/pokemon.png';
 
 const Pokedex = () => {
   const location = useLocation();
