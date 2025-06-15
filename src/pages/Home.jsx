@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import PokemonLogo from '../../public/pokemon.png';
 
 const Home = () => {
+  
   const [trainerName, setTrainerName] = useState('');
   const navigate = useNavigate();
 
