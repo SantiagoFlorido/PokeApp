@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
-import PokemonLogo from 'https://asset.cloudinary.com/dufzsv87k/e0205b04a72d6c4f7aeb8d5eef60a1ee';
+
 
 const PokemonId = () => {
   const { id } = useParams();
@@ -13,7 +13,7 @@ const PokemonId = () => {
   const [evolutionChain, setEvolutionChain] = useState([]);
   const [flavorText, setFlavorText] = useState('');
   const [evolutionDetails, setEvolutionDetails] = useState([]);
-
+  const PokemonLogo = '/pokemon.png';
   useEffect(() => {
     const fetchPokemonData = async () => {
       try {

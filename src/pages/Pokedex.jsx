@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import PokemonLogo from 'https://asset.cloudinary.com/dufzsv87k/e0205b04a72d6c4f7aeb8d5eef60a1ee';
+
 
 const Pokedex = () => {
   const location = useLocation();
@@ -16,7 +16,7 @@ const Pokedex = () => {
   const [selectedTypes, setSelectedTypes] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [showFilters, setShowFilters] = useState(false);
-
+  const PokemonLogo = '/pokemon.png';
   const itemsPerPage = 20;
 
   useEffect(() => {

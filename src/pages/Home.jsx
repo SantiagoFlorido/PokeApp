@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import PokemonLogo from 'https://asset.cloudinary.com/dufzsv87k/e0205b04a72d6c4f7aeb8d5eef60a1ee';
+
 
 const Home = () => {
   
   const [trainerName, setTrainerName] = useState('');
   const navigate = useNavigate();
-
+  const PokemonLogo = '/pokemon.png';
   const handleSubmit = (e) => {
     e.preventDefault();
     if (trainerName.trim()) {
