@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import PokemonLogo from 'https://res.cloudinary.com/dufzsv87k/image/upload/v1750023974/Pokemon_kmbzzp.png';
+import PokemonLogo from '../pokemon.png';
 
 const Home = () => {
   
