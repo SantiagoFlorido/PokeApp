@@ -8,10 +8,5 @@ export default defineConfig({
   server: {
     open: true,
     host: true
-  },
-  resolve: {
-    alias: {
-      '@public': '/public' // Esto permite importar desde public
-    }
   }
 })

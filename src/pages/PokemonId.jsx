@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
-import PokemonLogo from '@public/pokemon.png';
+import PokemonLogo from 'https://res.cloudinary.com/dufzsv87k/image/upload/v1750023974/Pokemon_kmbzzp.png';
 
 const PokemonId = () => {
   const { id } = useParams();
